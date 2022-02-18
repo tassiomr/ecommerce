@@ -1,4 +1,4 @@
-import {Sizes} from '../typescript/type';
+import {Sizes, TextSize} from '../typescript/type';
 
 const sizes: Sizes = {
   icons: {
@@ -7,9 +7,10 @@ const sizes: Sizes = {
     small: 16,
   },
   font: {
-    header: '64px',
-    subtitle: '32px',
-    paragraph: '18px',
+    [TextSize.header]: '64px',
+    [TextSize.subtitle]: '32px',
+    [TextSize.paragraph]: '18px',
+    [TextSize.deatil]: '12px',
   },
 };
 
