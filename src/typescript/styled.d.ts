@@ -1,5 +1,4 @@
 import 'styled-components';
-import {IStyledComponentsProps} from './interface';
 import {Sizes, Theme} from './type';
 
 declare module 'styled-components' {
