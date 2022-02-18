@@ -2,6 +2,7 @@ export type Theme = {
   background: string;
   accent: string;
   primary: string;
+  edges: string;
 };
 
 export type Sizes = {
