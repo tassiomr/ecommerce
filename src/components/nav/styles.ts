@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-import {Platform, StyleSheet} from 'react-native';
 import {IStyledComponentsProps} from '../../typescript/interface';
 
 export const Container = styled.View`
