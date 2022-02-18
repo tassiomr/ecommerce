@@ -5,7 +5,8 @@ export const Component = styled.View`
   flex: 1;
   width: 100%;
   alignitems: center;
-  paddingleft: 8px;
-  paddingright: 8px;
-  backgroundcolor: ${(props: IStyledComponentsProps) => props.theme.colors.background}
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: ${(props: IStyledComponentsProps) =>
+    props.theme.colors.background};
 `;
