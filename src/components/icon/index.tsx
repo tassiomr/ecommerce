@@ -1,7 +1,6 @@
 import * as React from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {ThemeContext} from 'styled-components';
-import {Theme} from '../../typescript/type';
 
 type Props = {
   name: string;
