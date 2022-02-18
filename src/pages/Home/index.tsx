@@ -3,7 +3,7 @@ import {Body, Text} from '../../components';
 
 export const Home: React.FC = () => {
   return (
-    <Body isLoading={false}>
+    <Body isLoading={false} title='Home'>
       <Text text={'Hello World'} />
     </Body>
   );
