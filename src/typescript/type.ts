@@ -12,8 +12,16 @@ export type Sizes = {
     small: number;
   };
   font: {
-    header: string;
-    subtitle: string;
-    paragraph: string;
+    [TextSize.header]: string;
+    [TextSize.paragraph]: string;
+    [TextSize.subtitle]: string;
+    [TextSize.deatil]: string;
   };
 };
+
+export enum TextSize {
+  paragraph,
+  header,
+  subtitle,
+  deatil,
+}
