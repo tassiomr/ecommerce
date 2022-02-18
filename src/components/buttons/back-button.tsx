@@ -6,7 +6,7 @@ import {Container} from './styles';
 export const BackButton: React.FC = () => {
   const navigation = useNavigation();
   return (
-    <Container onPress={navigation.goBack}>
+    <Container onPress={navigation.pop}>
       <Icon name="arrow-left" size="small" />
     </Container>
   );
