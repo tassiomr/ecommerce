@@ -7,8 +7,9 @@ import {Routes} from './routes';
 
 const App = () => {
   const theme = useColorScheme();
+
   return (
-    <ThemeProvider theme={{colors: Themes.dark, sizes}}>
+    <ThemeProvider theme={{colors: Themes[theme || 'light'], sizes}}>
       <Routes />
     </ThemeProvider>
   );
